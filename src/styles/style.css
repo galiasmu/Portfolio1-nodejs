@@ -1,3 +1,4 @@
+/* Establece el estilo general del cuerpo del documento */
 body {
     background-color: #2C3E50;
     color: #ECF0F1;
@@ -6,6 +7,7 @@ body {
     padding-top: 20px;
 }
 
+/* Estilos para la barra lateral de navegación */
 #sidebar .nav {
     display: flex;
     flex-direction: column;
@@ -19,24 +21,28 @@ body {
     width: 250px;
 }
 
+/* Estilo para imágenes circulares dentro del sidebar */
 .sidebar .rounded-circle {
     border: 2px solid #1ABC9C;
     padding: 5px;
 }
 
+/* Estilo para los enlaces de navegación */
 .nav-link {
-    color: #1ABC9C;
+    color: #ECF0F1; /* Cambiado para mejor contraste */
 }
-
+/* Estilo para el enlace activo */
 .nav-link.active {
-    color: #1ABC9C;
+    color: #34495E; /* Ajustado para un cambio visual más claro */
 }
 
+/* Estilos para la sección principal del contenido */
 main {
     margin-left: 250px;
     padding: 20px;
 }
 
+/* Estilo por defecto para las secciones, ocultándolas */
 section {
     padding: 60px 0;
     display: none; /* Oculta todas las secciones por defecto */
@@ -46,6 +52,7 @@ section.active {
     display: block; /* Muestra la sección activa */
 }
 
+/* Estilos para botones con clase btn-success */
 .btn-success {
     background-color: #1ABC9C;
     border-color: #1ABC9C;
@@ -66,10 +73,12 @@ section.active {
     color: #2C3E50;
 }
 
+/* Estilo para centrar el texto */
 .text-center {
     text-align: center;
 }
 
+/* Estilo para el contenido */
 .content {
     margin-left: -20px;
     font-family: 'Roboto', sans-serif;
@@ -90,6 +99,7 @@ section.active {
 html {
     scroll-behavior: smooth;
 }
+
 .animate {
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -98,4 +108,3 @@ html {
 .animate.visible {
     opacity: 1;
 }
-
