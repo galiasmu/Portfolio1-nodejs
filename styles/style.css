@@ -1,0 +1,101 @@
+body {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#sidebar .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: #1ABC9C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 250px;
+}
+
+.sidebar .rounded-circle {
+    border: 2px solid #1ABC9C;
+    padding: 5px;
+}
+
+.nav-link {
+    color: #1ABC9C;
+}
+
+.nav-link.active {
+    color: #1ABC9C;
+}
+
+main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+section {
+    padding: 60px 0;
+    display: none; /* Oculta todas las secciones por defecto */
+}
+
+section.active {
+    display: block; /* Muestra la sección activa */
+}
+
+.btn-success {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.btn-success:hover {
+    background-color: #16A085;
+    border-color: #16A085;
+}
+
+.social-links .btn {
+    background-color: #34495E;
+    border-color: #34495E;
+}
+
+.social-links .btn:hover {
+    background-color: #1ABC9C;
+    color: #2C3E50;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content {
+    margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-4 .nombre {
+    color: #1ABC9C;
+}
+
+.display-4 .apellido {
+    color: #5DADE2;
+}
+
+#animated-text {
+    color: #1ABC9C;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.animate {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.animate.visible {
+    opacity: 1;
+}
+
