@@ -1,3 +1,5 @@
+
+// trabajo que se encarga de mostrar y ocultar el menu de navegación
 document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link');
@@ -20,6 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetId = this.getAttribute('href');
             setActiveSection(targetId);
             window.history.pushState(null, '', targetId);
+
+            navLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+
+            // Colapsa el menú en dispositivos móviles
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            if (navbarCollapse.classList.contains('show')) {
+                navbarCollapse.classList.remove('show');
+            }
         });
     });
 
@@ -42,6 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    window.addEventListener('popstate', () => {
+        const activeSectionId = window.location.hash || '#presentacion';
+        setActiveSection(activeSectionId);
+    });
+
+    setActiveSection(window.location.hash || '#presentacion');
 });
 
 
