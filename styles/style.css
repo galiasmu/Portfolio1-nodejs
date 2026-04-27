@@ -16,7 +16,7 @@
 body {
     background-color: #2C3E50;
     color: #ECF0F1;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding-top: 20px;
 }
@@ -106,7 +106,7 @@ section.active {
 /* Estilo para el contenido */
 .content {
     margin-left: -20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .display-4 .nombre {
@@ -125,11 +125,3 @@ html {
     scroll-behavior: smooth;
 }
 
-.animate {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.animate.visible {
-    opacity: 1;
-}
