@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //animacion del texto Advanced Student...
 document.addEventListener('DOMContentLoaded', function() {
     var typed = new Typed('#typed-text', {
-    strings: ["Advanced student of Computer Engineering"],
+    strings: ["Full Stack Engineer", "Web &amp; Mobile Developer", "APIs REST | Sistemas en Tiempo Real"],
     typeSpeed: 20,
     backSpeed: 25,
     loop: true
