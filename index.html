@@ -88,7 +88,7 @@
                         <span id="typed-text"></span>
                     </p>
                     <p class="lead">Portfolio</p>
-                    <a href="#" class="btn btn-success my-3">CV</a>
+                    <a href="CV_Guillermo_Asmuzi.odt" download class="btn btn-success my-3">CV</a>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/gali-asmuzi-27725b163/" class="btn btn-outline-light mx-2"><i class="bi bi-linkedin"></i></a>
                         <a href="https://github.com/galiasmu" class="btn btn-outline-light mx-2"><i class="bi bi-github"></i></a>
@@ -135,27 +135,79 @@
             <section id="portfolio" class="animate">
                 <h2 class="display-4"><span class="nombre">PORTFOLIO</span></h2>
                 <div class="row mt-4">
+
                     <div class="col-md-6 mb-4">
                         <div class="card h-100" style="background-color:#34495E;border:none;">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-column">
                                 <h5 class="card-title" style="color:#1ABC9C;">Mi-Nube</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Sistema de almacenamiento cloud personal self-hosted</h6>
-                                <p class="card-text">Alternativa propia a Google Drive / OneDrive. Acceso remoto seguro mediante Cloudflare Tunnel, resolviendo restricciones de CG-NAT sin IP pública. Stack completo dockerizado con script de instalación automatizada.</p>
-                                <div class="mt-2">
+                                <h6 class="card-subtitle mb-2 text-muted">Cloud personal self-hosted</h6>
+                                <p class="card-text flex-grow-1">Alternativa propia a Google Drive / OneDrive. Backend Node.js + frontend React + app móvil Flutter. Acceso remoto seguro mediante Cloudflare Tunnel, resolviendo restricciones de CG-NAT. Stack completo dockerizado con script de instalación automatizada.</p>
+                                <div class="mt-2 mb-3">
                                     <span class="badge badge-secondary mr-1">Node.js</span>
                                     <span class="badge badge-secondary mr-1">React</span>
                                     <span class="badge badge-secondary mr-1">Flutter</span>
                                     <span class="badge badge-secondary mr-1">Docker</span>
                                     <span class="badge badge-secondary mr-1">Cloudflare Tunnel</span>
+                                    <span class="badge badge-secondary mr-1">JWT</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/mi-nube" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">TC — Compilador de C++</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Compilador completo implementado en Java</h6>
+                                <p class="card-text flex-grow-1">Implementación de todas las fases de un compilador para un subconjunto de C++: análisis léxico, sintáctico y semántico, construcción del AST, tabla de símbolos, generación de código de tres direcciones (TAC) y pases de optimización. Reportes de errores con salida ANSI coloreada.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Java</span>
+                                    <span class="badge badge-secondary mr-1">ANTLR4</span>
+                                    <span class="badge badge-secondary mr-1">Maven</span>
+                                    <span class="badge badge-secondary mr-1">AST</span>
+                                    <span class="badge badge-secondary mr-1">Compiladores</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/TC" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">RistorinoYa</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Portal de promociones para restaurantes — Full Stack</h6>
+                                <p class="card-text flex-grow-1">Sistema web para publicación y seguimiento de ofertas gastronómicas. Backend Spring Boot con API REST, seguimiento de clicks por oferta y notificaciones asíncronas a restaurantes mediante scheduler. Frontend en Angular 20 con módulos lazy-loaded, servicios tipados y arquitectura por features.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Spring Boot</span>
+                                    <span class="badge badge-secondary mr-1">JPA</span>
+                                    <span class="badge badge-secondary mr-1">Angular 20</span>
+                                    <span class="badge badge-secondary mr-1">TypeScript</span>
+                                    <span class="badge badge-secondary mr-1">REST API</span>
+                                </div>
+                                <div class="d-flex" style="gap:8px;">
+                                    <a href="https://github.com/galiasmu/RistorinoYa" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Backend</a>
+                                    <a href="https://github.com/galiasmu/RistorinoYa-Front" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Frontend</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="mt-3">
-                    <p>Más proyectos en:
-                        <a href="https://github.com/galiasmu" class="btn btn-success btn-sm ml-2" target="_blank"><i class="bi bi-github"></i> GitHub</a>
-                    </p>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">Turnero</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Sistema digital de gestión de turnos</h6>
+                                <p class="card-text flex-grow-1">Sistema de colas digitales que emite y gestiona turnos de forma dinámica para negocios. Automatiza el flujo de atención al cliente eliminando el manejo manual de filas.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Python</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/turnero" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <section id="education">
