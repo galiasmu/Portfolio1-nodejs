@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gali Asmuzi</title>
+    <meta name="description" content="Portfolio de Gali Asmuzi — Full Stack Engineer especializado en Node.js, React, Flutter, Spring Boot y Docker. Córdoba, Argentina.">
+    <meta name="author" content="Gali Asmuzi">
+    <title>Gali Asmuzi — Full Stack Engineer</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +26,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about-me">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">EXPERIENCE</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">PORTFOLIO</a>
@@ -48,13 +53,14 @@
         <nav class="col-md-3 d-none d-md-block bg-dark sidebar">
             <div id="sidebar" class="sidebar-sticky">
                 <ul class="nav text-center">
-                    <div class="text-center mt-3">
-                    </div>
                     <li class="nav-item">
                         <a class="nav-link active text-light" href="#presentacion">PRESENTATION</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light"  id="btnAboutMe" href="#about-me">ABOUT ME</a>
+                        <a class="nav-link text-light" href="#about-me">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#experience">EXPERIENCE</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#portfolio">PORTFOLIO</a>
@@ -72,7 +78,7 @@
             </div>
         </nav>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-9 px-4">
-            <section id="presentacion" role="main" class="active">
+            <section id="presentacion" class="active">
                 <div class="text-left my-5 content">
                     <h1 class="display-4">
                         <span class="nombre">GALI</span>
@@ -81,8 +87,7 @@
                     <p class="lead" id="animated-text">
                         <span id="typed-text"></span>
                     </p>
-                    <p class="lead">Portfolio</p>
-                    <a href="#" class="btn btn-success my-3">CV</a>
+                    <a href="CV_Guillermo_Asmuzi.odt" download class="btn btn-success my-3">CV</a>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/gali-asmuzi-27725b163/" class="btn btn-outline-light mx-2"><i class="bi bi-linkedin"></i></a>
                         <a href="https://github.com/galiasmu" class="btn btn-outline-light mx-2"><i class="bi bi-github"></i></a>
@@ -95,24 +100,249 @@
                     <span class="nombre">ABOUT</span>
                     <span class="apellido">ME</span>
                 </h2>
-                <p>Advanced Student of Engineering Informatics</p>
-                <p>Looking for my first job in the area</p>
+                <p class="lead mt-3">Full Stack Engineer con experiencia en construcción de sistemas completos: desde la base de datos y la API hasta el frontend web y el cliente móvil.</p>
+                <p>Especializado en arquitecturas cliente-servidor con sincronización de datos en tiempo real, diseño e implementación de APIs REST y desarrollo end-to-end desde el relevamiento hasta el despliegue en producción.</p>
+                <p>Sólida base en backend (Node.js, Java, PHP, Python), frontend web (React, Angular) y desarrollo móvil con Flutter como parte de sistemas integrados. Experiencia adicional en integración con hardware (dispositivos GPS, procesamiento de protocolos en C/C++).</p>
+                <p>Proyectos propios en infraestructura cloud self-hosted reflejan criterio de arquitectura más allá del entorno laboral.</p>
+                <p>Finalizando Ingeniería en Informática en la Universidad Blas Pascal · Córdoba, Argentina.</p>
             </section>
-            <section id="portfolio" class="animate">
-                <h2 class="display-4"> <span class="nombre">PORTFOLIO</span></h2>
-                <p>Contenido del portfolio...</p>
+            <section id="experience">
+                <h2 class="display-4"><span class="nombre">EXPERIENCE</span></h2>
+                <div class="mt-4">
+                    <div class="mb-5">
+                        <h4 class="mb-1">Full Stack Engineer</h4>
+                        <p class="mb-1" style="color:#1ABC9C;font-weight:600;">Pressa S.A. <span class="text-muted" style="font-weight:400;font-size:0.9rem;">· Septiembre 2024 – Actualidad</span></p>
+                        <ul class="mt-2">
+                            <li>Desarrollo full stack del sistema Pressa Globalship: panel web de control y seguimiento de conductores (frontend + backend) con transmisión de datos en tiempo real, y app móvil que envía geolocalización y datos de órdenes al servidor.</li>
+                            <li>Diseño e implementación de la API REST que conecta la app móvil con el panel web, manejando sincronización de estado de conductores en tiempo real.</li>
+                            <li>Integración con dispositivos GPS a nivel de protocolo: recepción de señales vía interceptor, procesamiento en C y transcripción del protocolo en C++ y Java.</li>
+                            <li>Actualización y rediseño del frontend del panel principal de usuarios, mejorando usabilidad y modernizando la interfaz.</li>
+                            <li>Migración de la app móvil desde versiones legacy de Flutter a versiones actuales, resolviendo breaking changes y refactorizando el código.</li>
+                            <li>Diagnóstico y resolución de bugs e incidencias en producción, garantizando continuidad operativa del sistema.</li>
+                            <li>Participación en ciclo completo: relevamiento de requerimientos, diseño de solución, implementación y despliegue.</li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="mb-1">Técnico IT &amp; Desarrollador</h4>
+                        <p class="mb-1" style="color:#1ABC9C;font-weight:600;">Imprenta Ga-Lu <span class="text-muted" style="font-weight:400;font-size:0.9rem;">· 2019 – Septiembre 2024</span></p>
+                        <ul class="mt-2">
+                            <li>Desarrollo de sistema a medida para digitalizar y automatizar los procesos de venta de la empresa, eliminando flujos 100% manuales.</li>
+                            <li>Creación de herramientas y programas internos adaptados a las necesidades específicas del negocio.</li>
+                            <li>Diagnóstico, reparación y mantenimiento de hardware (PCs e impresoras industriales), garantizando continuidad operativa.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio">
+                <h2 class="display-4"><span class="nombre">PORTFOLIO</span></h2>
+                <div class="row mt-4">
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">Mi-Nube</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Cloud personal self-hosted</h6>
+                                <p class="card-text flex-grow-1">Alternativa propia a Google Drive / OneDrive. Backend Node.js + frontend React + app móvil Flutter. Acceso remoto seguro mediante Cloudflare Tunnel, resolviendo restricciones de CG-NAT. Stack completo dockerizado con script de instalación automatizada.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Node.js</span>
+                                    <span class="badge badge-secondary mr-1">React</span>
+                                    <span class="badge badge-secondary mr-1">Flutter</span>
+                                    <span class="badge badge-secondary mr-1">Docker</span>
+                                    <span class="badge badge-secondary mr-1">Cloudflare Tunnel</span>
+                                    <span class="badge badge-secondary mr-1">JWT</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/mi-nube" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">TC — Compilador de C++</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Compilador completo implementado en Java</h6>
+                                <p class="card-text flex-grow-1">Implementación de todas las fases de un compilador para un subconjunto de C++: análisis léxico, sintáctico y semántico, construcción del AST, tabla de símbolos, generación de código de tres direcciones (TAC) y pases de optimización. Reportes de errores con salida ANSI coloreada.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Java</span>
+                                    <span class="badge badge-secondary mr-1">ANTLR4</span>
+                                    <span class="badge badge-secondary mr-1">Maven</span>
+                                    <span class="badge badge-secondary mr-1">AST</span>
+                                    <span class="badge badge-secondary mr-1">Compiladores</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/TC" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">RistorinoYa</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Portal de promociones para restaurantes — Full Stack</h6>
+                                <p class="card-text flex-grow-1">Sistema web para publicación y seguimiento de ofertas gastronómicas. Backend Spring Boot con API REST, seguimiento de clicks por oferta y notificaciones asíncronas a restaurantes mediante scheduler. Frontend en Angular 20 con módulos lazy-loaded, servicios tipados y arquitectura por features.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Spring Boot</span>
+                                    <span class="badge badge-secondary mr-1">JPA</span>
+                                    <span class="badge badge-secondary mr-1">Angular 20</span>
+                                    <span class="badge badge-secondary mr-1">TypeScript</span>
+                                    <span class="badge badge-secondary mr-1">REST API</span>
+                                </div>
+                                <div class="d-flex" style="gap:8px;">
+                                    <a href="https://github.com/galiasmu/RistorinoYa" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Backend</a>
+                                    <a href="https://github.com/galiasmu/RistorinoYa-Front" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Frontend</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">Turnero</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Sistema digital de gestión de turnos</h6>
+                                <p class="card-text flex-grow-1">Sistema de colas digitales que emite y gestiona turnos de forma dinámica para negocios. Automatiza el flujo de atención al cliente eliminando el manejo manual de filas.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Python</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/turnero" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100" style="background-color:#34495E;border:none;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title" style="color:#1ABC9C;">Virtual Assistant</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Asistente de voz por comandos en español</h6>
+                                <p class="card-text flex-grow-1">Asistente de escritorio activado por voz que reconoce comandos en español (Argentina), lanza aplicaciones, reproduce música en YouTube, consulta precios de acciones en tiempo real, busca en Wikipedia y navega la web — todo mediante síntesis y reconocimiento de voz.</p>
+                                <div class="mt-2 mb-3">
+                                    <span class="badge badge-secondary mr-1">Python</span>
+                                    <span class="badge badge-secondary mr-1">SpeechRecognition</span>
+                                    <span class="badge badge-secondary mr-1">pyttsx3</span>
+                                    <span class="badge badge-secondary mr-1">yfinance</span>
+                                    <span class="badge badge-secondary mr-1">pywhatkit</span>
+                                </div>
+                                <a href="https://github.com/galiasmu/virtualAssistant" target="_blank" class="btn btn-success btn-sm mt-auto"><i class="bi bi-github mr-1"></i>Ver en GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </section>
             <section id="education">
-                <h2 class="display-4"> <span class="nombre">EDUCATION</span></h2>
-                <p>Contenido de la educación...</p>
+                <h2 class="display-4"><span class="nombre">EDUCATION</span></h2>
+                <div class="mt-4">
+                    <div class="mb-4">
+                        <h4 class="mb-1">Ingeniería en Informática</h4>
+                        <p style="color:#1ABC9C;font-weight:600;" class="mb-1">Universidad Blas Pascal <span class="text-muted" style="font-weight:400;font-size:0.9rem;">· En curso — finalizando</span></p>
+                        <p class="text-muted">Córdoba, Argentina · Cursada completa, pendiente de últimos finales para obtención del título.</p>
+                    </div>
+                    <hr style="border-color:#4a6278;">
+                    <div class="mt-4">
+                        <h5 class="mb-3" style="color:#5DADE2;">Cursos y Certificaciones</h5>
+                        <ul>
+                            <li>Electron.js — Udemy</li>
+                        </ul>
+                    </div>
+                    <hr style="border-color:#4a6278;">
+                    <div class="mt-4">
+                        <h5 class="mb-3" style="color:#5DADE2;">Idiomas</h5>
+                        <ul>
+                            <li>Español — Nativo</li>
+                            <li>Inglés — Intermedio (lectura técnica fluida)</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <section id="skills">
-                <h2 class="display-4"> <span class="nombre">SKILLS</span></h2>
-                <p>Contenido de habilidades...</p>
+                <h2 class="display-4"><span class="nombre">SKILLS</span></h2>
+                <div class="mt-4">
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Backend</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">Node.js</span>
+                        <span class="badge badge-secondary mr-1 mb-1">PHP</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Python</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Django</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Java</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Spring Boot</span>
+                        <span class="badge badge-secondary mr-1 mb-1">JPA</span>
+                        <span class="badge badge-secondary mr-1 mb-1">APIs REST</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Microservicios</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Frontend Web</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">HTML</span>
+                        <span class="badge badge-secondary mr-1 mb-1">CSS</span>
+                        <span class="badge badge-secondary mr-1 mb-1">JavaScript</span>
+                        <span class="badge badge-secondary mr-1 mb-1">React</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Angular</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Mobile</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">Flutter</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Dart</span>
+                        <span class="badge badge-secondary mr-1 mb-1">iOS &amp; Android</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Firebase</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Google Maps</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Google Play Store</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Bases de Datos</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">MySQL</span>
+                        <span class="badge badge-secondary mr-1 mb-1">MariaDB</span>
+                        <span class="badge badge-secondary mr-1 mb-1">PostgreSQL</span>
+                        <span class="badge badge-secondary mr-1 mb-1">SQL Server</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Elasticsearch</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">DevOps &amp; Herramientas</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">Git</span>
+                        <span class="badge badge-secondary mr-1 mb-1">GitHub</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Bitbucket</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Linux</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Apache</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Nginx</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Docker</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Docker Compose</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Cloudflare Tunnel</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Sistemas &amp; Protocolos</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">C</span>
+                        <span class="badge badge-secondary mr-1 mb-1">C++</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Integración GPS</span>
+                        <span class="badge badge-secondary mr-1 mb-1">ANTLR</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Wireshark</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Cisco Packet Tracer</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Testing</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">Testing unitario</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Testing de integración</span>
+                    </div>
+                    <div class="mb-4">
+                        <h5 style="color:#5DADE2;" class="mb-2">Otros</h5>
+                        <span class="badge badge-secondary mr-1 mb-1">Electron.js</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Weka (IA)</span>
+                        <span class="badge badge-secondary mr-1 mb-1">GNU Octave</span>
+                        <span class="badge badge-secondary mr-1 mb-1">JDBC</span>
+                        <span class="badge badge-secondary mr-1 mb-1">JSP</span>
+                        <span class="badge badge-secondary mr-1 mb-1">Unreal Engine 4</span>
+                    </div>
+                </div>
             </section>
             <section id="contact">
-                <h2 class="display-4"> <span class="nombre">CONTACTO</span></h2>
-                <p>Contenido de contacto...</p>
+                <h2 class="display-4"><span class="nombre">CONTACT</span></h2>
+                <div class="mt-4">
+                    <p><i class="bi bi-envelope mr-2" style="color:#1ABC9C;"></i> <a href="mailto:galiasmuzi@gmail.com" class="text-light">galiasmuzi@gmail.com</a></p>
+                    <p><i class="bi bi-telephone mr-2" style="color:#1ABC9C;"></i> <a href="tel:+543512094749" class="text-light">+54 351 209-4749</a></p>
+                    <p><i class="bi bi-geo-alt mr-2" style="color:#1ABC9C;"></i> Córdoba, Argentina</p>
+                    <div class="mt-4 social-links">
+                        <a href="https://www.linkedin.com/in/gali-asmuzi-27725b163/" class="btn btn-outline-light mx-1" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/galiasmu" class="btn btn-outline-light mx-1" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+                        <a href="https://www.instagram.com/galiasmu/?hl=es" class="btn btn-outline-light mx-1" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                    </div>
+                </div>
             </section>
         </main>
     </div>
